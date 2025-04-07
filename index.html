@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum University Student Journey Roadmap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="quantum_logo.webp" alt="Quantum University Logo">
+            <h1>Quantum University</h1>
+            <h2>Student Journey Roadmap</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="roadmap-container">
+            <div class="path-container">
+                <!-- SVG Path for the flowing journey -->
+                <svg id="journey-path" viewBox="0 0 1200 4000" preserveAspectRatio="xMidYMin meet">
+                    <!-- Main flowing path -->
+                    <path id="main-path" d="M600,50 C600,200 900,350 900,550 C900,750 300,900 300,1100 C300,1300 900,1450 900,1650 C900,1850 300,2000 300,2200 C300,2400 900,2550 900,2750 C900,2950 300,3100 300,3300" 
+                        fill="none" stroke="#1a6ea0" stroke-width="30" stroke-linecap="round"/>
+                    
+                    <!-- Glowing effect for the path -->
+                    <path id="glow-path" d="M600,50 C600,200 900,350 900,550 C900,750 300,900 300,1100 C300,1300 900,1450 900,1650 C900,1850 300,2000 300,2200 C300,2400 900,2550 900,2750 C900,2950 300,3100 300,3300" 
+                        fill="none" stroke="#d4af37" stroke-width="15" stroke-linecap="round" filter="url(#glow)"/>
+                    
+                    <!-- Filters for glowing effects -->
+                    <defs>
+                        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="15" result="blur"/>
+                            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                        </filter>
+                    </defs>
+                </svg>
+
+                <!-- Stage 1: Exploration Phase -->
+                <div class="stage" id="stage1">
+                    <div class="stage-content">
+                        <h3>EXPLORATION PHASE</h3>
+                        <h4>"Discovering Your Healing Potential"</h4>
+                        <div class="substages">
+                            <div class="substage" data-info="initial-interest">
+                                <div class="dot"></div>
+                                <span>Initial Interest</span>
+                            </div>
+                            <div class="substage" data-info="program-research">
+                                <div class="dot"></div>
+                                <span>Program Research</span>
+                            </div>
+                            <div class="substage" data-info="admission-requirements">
+                                <div class="dot"></div>
+                                <span>Admission Requirements</span>
+                            </div>
+                            <div class="substage" data-info="application-process">
+                                <div class="dot"></div>
+                                <span>Application Process</span>
+                            </div>
+                            <div class="substage" data-info="financial-planning">
+                                <div class="dot"></div>
+                                <span>Financial Planning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stage 2: Foundation Phase -->
+                <div class="stage" id="stage2">
+                    <div class="stage-content">
+                        <h3>FOUNDATION PHASE</h3>
+                        <h4>"Building Your Knowledge Base"</h4>
+                        <div class="substages">
+                            <div class="substage" data-info="enrollment">
+                                <div class="dot"></div>
+                                <span>Enrollment</span>
+                            </div>
+                            <div class="substage" data-info="technology-onboarding">
+                                <div class="dot"></div>
+                                <span>Technology Onboarding</span>
+                            </div>
+                            <div class="substage" data-info="orientation">
+                                <div class="dot"></div>
+                                <span>Orientation</span>
+                            </div>
+                            <div class="substage" data-info="first-courses">
+                                <div class="dot"></div>
+                                <span>First Courses</span>
+                            </div>
+                            <div class="substage" data-info="quantum-ai">
+                                <div class="dot"></div>
+                                <span>Quantum AI Introduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stage 3: Development Phase -->
+                <div class="stage" id="stage3">
+                    <div class="stage-content">
+                        <h3>DEVELOPMENT PHASE</h3>
+                        <h4>"Expanding Your Healing Expertise"</h4>
+                        <div class="substages">
+                            <div class="substage" data-info="core-curriculum">
+                                <div class="dot"></div>
+                                <span>Core Curriculum</span>
+                            </div>
+                            <div class="substage" data-info="specialized-learning">
+                                <div class="dot"></div>
+                                <span>Specialized Learning</span>
+                            </div>
+                            <div class="substage" data-info="assessment-milestones">
+                                <div class="dot"></div>
+                                <span>Assessment Milestones</span>
+                            </div>
+                            <div class="substage" data-info="practicum-experience">
+                                <div class="dot"></div>
+                                <span>Practicum Experience</span>
+                            </div>
+                            <div class="substage" data-info="mentor-connections">
+                                <div class="dot"></div>
+                                <span>Mentor Connections</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stage 4: Certification Phase -->
+                <div class="stage" id="stage4">
+                    <div class="stage-content">
+                        <h3>CERTIFICATION PHASE</h3>
+                        <h4>"Validating Your Professional Credentials"</h4>
+                        <div class="substages">
+                            <div class="substage" data-info="program-completion">
+                                <div class="dot"></div>
+                                <span>Program Completion</span>
+                            </div>
+                            <div class="substage" data-info="certification-preparation">
+                                <div class="dot"></div>
+                                <span>Board Certification Preparation</span>
+                            </div>
+                            <div class="substage" data-info="certification-application">
+                                <div class="dot"></div>
+                                <span>Certification Application</span>
+                            </div>
+                            <div class="substage" data-info="professional-title">
+                                <div class="dot"></div>
+                                <span>Professional Title Acquisition</span>
+                            </div>
+                            <div class="substage" data-info="graduation">
+                                <div class="dot"></div>
+                                <span>Graduation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stage 5: Career Launch Phase -->
+                <div class="stage" id="stage5">
+                    <div class="stage-content">
+                        <h3>CAREER LAUNCH PHASE</h3>
+                        <h4>"Transforming Lives Through Holistic Health"</h4>
+                        <div class="substages">
+                            <div class="substage" data-info="career-path-selection">
+                                <div class="dot"></div>
+                                <span>Career Path Selection</span>
+                            </div>
+                            <div class="substage" data-info="practice-establishment">
+                                <div class="dot"></div>
+                                <span>Practice Establishment</span>
+                            </div>
+                            <div class="substage" data-info="career-integration">
+                                <div class="dot"></div>
+                                <span>Career Integration</span>
+                            </div>
+                            <div class="substage" data-info="professional-network">
+                                <div class="dot"></div>
+                                <span>Professional Network</span>
+                            </div>
+                            <div class="substage" data-info="continued-education">
+                                <div class="dot"></div>
+                                <span>Continued Education</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stage 6: Alumni Phase -->
+                <div class="stage" id="stage6">
+                    <div class="stage-content">
+                        <h3>ALUMNI PHASE</h3>
+                        <h4>"Lifelong Connection & Growth"</h4>
+                        <div class="substages">
+                            <div class="substage" data-info="alumni-association">
+                                <div class="dot"></div>
+                                <span>Alumni Association</span>
+                            </div>
+                            <div class="substage" data-info="lifelong-learning">
+                                <div class="dot"></div>
+                                <span>Lifelong Learning</span>
+                            </div>
+                            <div class="substage" data-info="networking-community">
+                                <div class="dot"></div>
+                                <span>Networking & Community</span>
+                            </div>
+                            <div class="substage" data-info="business-building">
+                                <div class="dot"></div>
+                                <span>Business Building Support</span>
+                            </div>
+                            <div class="substage" data-info="mentorship-giving-back">
+                                <div class="dot"></div>
+                                <span>Mentorship & Giving Back</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Improved Modal Structure -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title"></h3>
+                <button id="close-modal" class="close-modal">×</button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> Quantum University - Student Journey Roadmap</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
