@@ -692,7 +692,7 @@ function initEnhancements() {
 
     // --- Add Modal Close Event Listeners --- 
     const modal = document.getElementById('info-modal');
-    const closeModal = document.getElementById('modal-close-btn');
+    const closeModal = document.getElementById('close-modal');
 
     if (closeModal) {
         closeModal.onclick = function() {
